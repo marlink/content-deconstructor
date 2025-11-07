@@ -1,0 +1,5 @@
+{
+  "name": "Notebook Articulator",
+  "description": "Transforms content from any public URL (notebooks, articles, webpages) into structured, rewritable articles using AI. Deconstruct content into insight blocks, arrange them on a canvas, rewrite for different channels and tones, and export your final piece.",
+  "requestFramePermissions": []
+}
