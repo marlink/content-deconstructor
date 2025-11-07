@@ -8,6 +8,21 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1wsw9bZdMtSExTubsLQH5OuMmOlGDakKY
 
+## Environment Setup
+
+1. Copy `.env.template` to `.env.local`:
+   ```bash
+   cp .env.template .env.local
+   ```
+
+2. Edit `.env.local` and add your Gemini API key:
+   ```bash
+   # Replace YOUR_API_KEY with your actual Gemini API key
+   GEMINI_API_KEY=YOUR_API_KEY
+   ```
+
+3. Never commit `.env.local` to version control - it's already in .gitignore
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
