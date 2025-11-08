@@ -13,7 +13,7 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": {
-              "base": "./dist",
+              "base": "dist/content-deconstructor",
               "browser": "."
             },
             "browser": "src/main.ts",
